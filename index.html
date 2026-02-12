@@ -16,6 +16,7 @@
         <!-- Form -->
         <form id="userForm">
             <div class="row mb-3">
+                <input type="hidden" id="editIndex">
                 <div class="col-md-4">
                     <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
                 </div>
@@ -36,17 +37,7 @@
                 <th>Action</th>
             </thead>
             <tbody id="tableBody">
-                <tr>
-                    <td>1</td>
-                    <td>name</td>
-                    <td>email</td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-warning">Edit</button>
-                            <button class="btn btn-danger ms-3">Delete</button>
-                        </div>
-                    </td>
-                </tr>
+                
             </tbody>
         </table>
     </div>
